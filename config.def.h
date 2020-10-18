@@ -64,8 +64,8 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
  	/* { wifi_perc,	"[W: %3s%%]",	"wlp2s0" }, */
-	{ netspeed_rx,	"[E: %s B/s]",	"enp1s0" },
-	{ run_command,	"[🔊 %4s]",	"pamixer --get-volume "},
+	{ netspeed_rx,	"[ E: %s B/s]",	"enp1s0" },
+	{ run_command,	"[A: %4s]",	"pamixer --get-volume "},
 	/* { run_command,	"[A: %4s]",	"amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" }, */
  	{ battery_perc, "[B: %s%%]", "BAT1"},
 	{ datetime, 	"%s",           "[%a %b %d %r]" },
